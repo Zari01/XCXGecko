@@ -200,7 +200,6 @@ class XCXGeckoMainWindow(GeckoMainWindow):
 
   def populateCodeOffsets(self):
     self.cmb_code_offset.addItems(['0 (default)',
-                                   '8192 (+0x2000: 5.5.2 HaxChi+TCPGecko)',
                                    '-20480 (-0x5000: 5.3.2 LoadiineV4+pyGecko)',
                                    '45056 (+0xB000: Loadiine GX2 0.3 / 5.5.X US)',
                                    '53248 (+0xD000: 5.5.X EU/JP)'])
